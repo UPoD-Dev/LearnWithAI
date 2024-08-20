@@ -4,6 +4,8 @@
 # Except for the .gitignore file itself
 !.gitignore
 
+!requirements.txt
+
 # Exclude a single file
 !/notebook
 
