@@ -1,0 +1,9 @@
+# Ignore all files in the current directory
+/*
+
+# Except for the .gitignore file itself
+!.gitignore
+
+# Exclude a single file
+!/notebook
+
