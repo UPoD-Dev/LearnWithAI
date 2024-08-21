@@ -1,5 +1,8 @@
 # Ignore all files in the current directory
-/*
+!data/output/.gitkeep
+!data/trimmed_audio/.gitkeep
+
+*
 
 # Except for the .gitignore file itself
 !.gitignore
@@ -7,6 +10,7 @@
 !requirements.txt
 
 !README.md
+
 
 # Exclude a single file
 !/notebook
