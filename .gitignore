@@ -6,6 +6,8 @@
 
 !requirements.txt
 
+!README.md
+
 # Exclude a single file
 !/notebook
 
