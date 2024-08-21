@@ -1,8 +1,19 @@
 # Ignore all files in the current directory
-!data/output/.gitkeep
-!data/trimmed_audio/.gitkeep
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+/*.html
+/*.ipynb
+/*.js
+/*.json
+/*.py
+/*.md
+!/README.md
 
-*
+/data/**
+!/data/**/
+!/data/**/.gitkeep
+
 
 # Except for the .gitignore file itself
 !.gitignore
@@ -11,7 +22,5 @@
 
 !README.md
 
-
 # Exclude a single file
 !/notebook
-
